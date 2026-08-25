@@ -1,0 +1,14 @@
+# Local-only files.
+examples/local_visualizations/
+experiments/
+paper_experiments/
+work/
+
+# Generated files and IDE state.
+.idea/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+tmp/

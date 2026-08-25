@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sms-ocp"
+version = "0.1.0"
+description = "Multiple-shooting solver for nonlinear optimal control with continuous-time path constraints."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "casadi>=3.6",
+    "numpy>=1.24",
+    "scipy>=1.10",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+examples = [
+    "matplotlib>=3.7",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

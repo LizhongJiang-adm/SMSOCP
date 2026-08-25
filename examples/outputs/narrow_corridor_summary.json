@@ -1,0 +1,15 @@
+{
+  "algorithm_status": "kkt_satisfied",
+  "algorithm_success": true,
+  "phase_one_nlp_solves": 7,
+  "phase_one_refinements": 6,
+  "phase_one_rho": -0.0005542581650924796,
+  "phase_two_nlp_solves": 2,
+  "phase_two_refinements": 1,
+  "final_checking_intervals": 46,
+  "objective": 0.5150473425120384,
+  "kkt_stationarity_residual": 1.6552914814588276e-05,
+  "kkt_sampled_max_path_value": -6.594300643036899e-07,
+  "dense_max_path_value": -6.557809409044046e-07,
+  "total_seconds": 9.675090500000806
+}
